@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="print.css" media="print">
+    <title>Our Fitness</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container d-flex direction-column">
+            <nav class="main-menu">
+                <ul>
+                    <li><a href="index.html">Events</a></li>
+                    <li><a href="schedule.html">Registration</a></li>
+                    <li><a href="teachers.html">Coaching staff</a></li>
+                    <li><a href="Products.html">Products</a></li>
+                </ul>
+            </nav>
+            <div class="profile">
+                <a href="schedule.html">Sing in</a>
+            </div>
+        </div>
+
+
+    </header>
+    <main class="container d-flex direction-column">
+        <aside class="sidebar">
+            <form>
+                <fieldset class="sidebar-section">
+                    <legend>Subject</legend>
+                    <div>
+                        <input type="checkbox" name="topic" value="topic1" id="topic1">
+                        <label for="topic1">Competition</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="topic" value="topic2" id="topic2">
+                        <label for="topic2">Workout</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="topic" value="topic3" id="topic3">
+                        <label for="topic3">Boxing</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="topic" value="topic2" id="topic2">
+                        <label for="topic2">Swimming</label>
+                    </div>
+                </fieldset>
+
+
+                <fieldset class="sidebar-section">
+                    <legend>Your Age</legend>
+                    <div>
+                        <input type="radio" name="group" value="group1" id="group1">
+                        <label for="group1">12-18</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="group" value="group2" id="group2">
+                        <label for="group2">18-29</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="group" value="group3" id="group3">
+                        <label for="group3">older then 29</label>
+                    </div>
+                </fieldset>
+
+                <button type="submit">Submit</button>
+
+
+            </form>
+
+        </aside>
+        <div class="page-content">
+            <h1 class="events">Events</h1>
+            <div class="events-list">
+                <div class="event">
+                    <div class="image">
+                        <img src="Images/Gym.jpg" alt="event1">
+                    </div>
+                    <div class="details">
+                        <header></header>
+                        <p class="information">You can try our GYM before the regestration 'the first class is free'</p>
+                    </div>
+                </div>
+
+                <div class="event">
+                    <div class="image">
+                        <img src="Images/trainers.jpg" alt="event2">
+                    </div>
+                    <div class="details">
+                        <header>Why us! </header>
+                        <p class="information">we have the best trainers for you and your kids, Boxing or Swimming!!!
+                        </p>
+                    </div>
+                </div>
+
+                <div class="event">
+                    <div class="image">
+                        <img src="Images/nutrition.webp" alt="event3">
+                    </div>
+                    <div class="details">
+                        <header>Nutrition</header>
+                        <p class="information">We have a dietitian who can help you choose your nutrition program</p>
+                    </div>
+                </div>
+        
+                
+            </div>
+        </div>
+        <button class="scroll-to-top-btn">
+            &#9650;
+        </button>
+
+
+    </main>
+    <footer class="footer">
+        <div class="container">
+            &copy; ourFit
+        </div>
+    </footer>
+
+</body>
+
+</html>
